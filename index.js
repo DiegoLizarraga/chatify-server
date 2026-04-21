@@ -3,6 +3,7 @@ import { createServer } from 'node:http';
 import { Server } from 'socket.io';
 import pg from 'pg';
 import dotenv from 'dotenv';
+import 'dotenv/config';
 
 dotenv.config();
 
